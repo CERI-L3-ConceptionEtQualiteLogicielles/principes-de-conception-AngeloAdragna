@@ -1,7 +1,6 @@
 package exo1;
 
 
-
 public class Contact  {
     //private static List<Contact> lesContacts = new ArrayList<>();
     private String nom;
