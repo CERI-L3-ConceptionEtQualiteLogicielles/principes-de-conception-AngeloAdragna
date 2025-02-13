@@ -1,7 +1,7 @@
 package exo1;
 
-public class MailBox implements MailService {
+public class MailBox implements SendService {
     @Override
-    public void envoiEmail(Contact contact, String message) {
+    public void envoiMessage( SendService sd,Contact contact, String message) {
     }
 }
