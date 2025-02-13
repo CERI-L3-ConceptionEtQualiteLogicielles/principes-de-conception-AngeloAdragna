@@ -5,5 +5,4 @@ La classe contact ne sera plus une inmplémentation de l'interface ContactServic
 - I :  la méthode envoyé mail n'est pas nécéssaire dans un service de gestion de contact.
 Je dois creer une interface pour pour le mailing et une classe afin d'envoyer des mails.
 
-
 DRY n'est pas respectée : getInfoContact et toString et afficheContacts réalise le même code.
