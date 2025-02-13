@@ -1,7 +1,6 @@
 package exo1;
 
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class Contact  {
     //private static List<Contact> lesContacts = new ArrayList<>();

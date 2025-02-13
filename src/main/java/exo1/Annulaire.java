@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Annulaire implements ContactService {
-    private static List<Contact> lesContacts = new ArrayList<>();
+    private List<Contact> lesContacts = new ArrayList<>();
 
     @Override
     public void ajouteContact(Contact contact) {
