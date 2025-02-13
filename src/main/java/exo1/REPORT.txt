@@ -1,3 +1,4 @@
+Question 1 :
 Voici les principes non respectant le principe SOLID :
 - S : l'attribut private static représentant la liste des contacts devrait correpondre à une classe.
 Au niveau hierachique j'aimerais creer une classe anulaire qui sera une implémentation de ContactService.
@@ -6,3 +7,6 @@ La classe contact ne sera plus une inmplémentation de l'interface ContactServic
 Je dois creer une interface pour pour le mailing et une classe afin d'envoyer des mails.
 
 DRY n'est pas respectée : getInfoContact et toString et afficheContacts réalise le même code.
+
+Question 2 :
+Création interface SendService.
