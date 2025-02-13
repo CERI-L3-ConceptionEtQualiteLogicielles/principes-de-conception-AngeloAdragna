@@ -15,3 +15,6 @@ Question 3 :
 Je crée une classe ServiceEnvoiPhoto et une classe EnvoiPhoto qui implémente SendService.
 Méthode 1 ServiceEnvoiPhoto étend EnvoiPhoto.
 Méthode 2 EnvoiPhoto crée une instance de ServiceEnvoiPhoto.
+
+Question 4 :
+J'ai crée un interface FormatInfo aussi que deux classes XML et JSON etant des implémentations de l'interface.

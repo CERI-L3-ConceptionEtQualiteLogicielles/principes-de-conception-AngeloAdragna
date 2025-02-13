@@ -6,5 +6,6 @@ public class Main {
         GestionnaireService gs = new GestionnaireService();
         MailBox mb = new MailBox();
         gs.envoiMessage(mb,fabou,"salutation");
+        System.out.println(fabou.getInfoContact(new XmlInfo()));
     }
 }
