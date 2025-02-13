@@ -19,7 +19,7 @@ public class Annulaire implements ContactService {
     @Override
     public void afficheContacts() {
         for (Contact contact : lesContacts) {
-            System.out.println("Nom: " + contact.getNom() + ", Numéro: " + contact.getNumero());
+            System.out.println(contact);
         }
     }
 
