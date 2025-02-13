@@ -9,4 +9,9 @@ Je dois creer une interface pour pour le mailing et une classe afin d'envoyer de
 DRY n'est pas respectée : getInfoContact et toString et afficheContacts réalise le même code.
 
 Question 2 :
-Création interface SendService.
+Création interface SendService et d'un gestionnaire de service afin de chosir le type : SMS, mail...
+
+Question 3 :
+Je crée une classe ServiceEnvoiPhoto et une classe EnvoiPhoto qui implémente SendService.
+Méthode 1 ServiceEnvoiPhoto étend EnvoiPhoto.
+Méthode 2 EnvoiPhoto crée une instance de ServiceEnvoiPhoto.
