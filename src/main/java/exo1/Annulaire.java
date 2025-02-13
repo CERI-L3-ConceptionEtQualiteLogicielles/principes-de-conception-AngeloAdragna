@@ -17,11 +17,6 @@ public class Annulaire implements ContactService {
     }
 
     @Override
-    public void envoiEmail(Contact contact, String message) {
-        // Logique pour envoyer un email
-    }
-
-    @Override
     public void afficheContacts() {
         for (Contact contact : lesContacts) {
             System.out.println("Nom: " + contact.getNom() + ", Numéro: " + contact.getNumero());
